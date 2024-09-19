@@ -1,5 +1,7 @@
 #pragma once
+#include <iostream>
 #include <string>;
+using namespace std;
 
 class TextBox
 {
@@ -11,7 +13,6 @@ public:
 	explicit TextBox(std::string Val);
 	std::string getVal();
 	void setVal(std::string Val);
-	~TextBox() = default;
-
+	~TextBox();
 };
 
